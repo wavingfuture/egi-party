@@ -1,0 +1,68 @@
+title: Egi Party
+originalAuthor: wavingfuture
+description: Replaces Donald and Goofy during gameplay with Garuda-Egi and Ifrit-Egi respectively. Weapons are still visible.
+dependencies: 
+assets:
+# garuda donald
+- name: obj/P_EX020.mdlx
+  multi:
+  - name: obj/P_EX020_NM.mdlx
+  - name: obj/P_EX020_XM.mdlx
+  - name: obj/P_EX020_TR.mdlx
+  method: copy
+  source:
+  - name: M/garuda.mdlx
+- name: obj/P_WI020.mdlx
+  method: copy
+  source:
+  - name: M/garuda_WI.mdlx
+- name: remastered/obj/P_EX020.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX020_NM.mdlx/-0.dds
+  - name: remastered/obj/P_EX020_XM.mdlx/-0.dds
+  - name: remastered/obj/P_EX020_TR.mdlx/-0.dds
+  - name: remastered/obj/P_WI020.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/garuda.png
+# ifrit goofy
+- name: obj/P_EX030.mdlx
+  multi:
+  - name: obj/P_EX030_NM.mdlx
+  - name: obj/P_EX030_XM.mdlx
+  - name: obj/P_EX030_TR.mdlx
+  method: copy
+  source:
+  - name: M/ifrit.mdlx
+- name: obj/P_WI030.mdlx
+  method: copy
+  source:
+  - name: M/ifrit_WI.mdlx
+- name: remastered/obj/P_EX030.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX030_NM.mdlx/-0.dds
+  - name: remastered/obj/P_EX030_XM.mdlx/-0.dds
+  - name: remastered/obj/P_EX030_TR.mdlx/-0.dds
+  - name: remastered/obj/P_WI030.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/ifrit.png
+# hud
+- name: remastered/obj/P_EX020.a.us/-6.dds
+  multi:
+  - name: remastered/obj/P_EX020_NM.a.us/-6.dds
+  - name: remastered/obj/P_EX020_XM.a.us/-6.dds
+  - name: remastered/obj/P_EX020_TR.a.us/-6.dds
+  - name: remastered/obj/P_WI020.a.us/-6.dds
+  method: copy
+  source:
+  - name: T/garuda-icon.png
+- name: remastered/obj/P_EX030.a.us/-2.dds
+  multi:
+  - name: remastered/obj/P_EX030_NM.a.us/-2.dds
+  - name: remastered/obj/P_EX030_XM.a.us/-2.dds
+  - name: remastered/obj/P_EX030_TR.a.us/-2.dds
+  - name: remastered/obj/P_WI030.a.us/-2.dds
+  method: copy
+  source:
+  - name: T/ifrit-icon.png
