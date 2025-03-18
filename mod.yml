@@ -60,9 +60,31 @@ assets:
 - name: remastered/obj/P_EX030.a.us/-2.dds
   multi:
   - name: remastered/obj/P_EX030_NM.a.us/-2.dds
-  - name: remastered/obj/P_EX030_XM.a.us/-2.dds
   - name: remastered/obj/P_EX030_TR.a.us/-2.dds
   - name: remastered/obj/P_WI030.a.us/-2.dds
   method: copy
   source:
   - name: T/ifrit-icon.png
+- name: remastered/obj/P_EX030_XM.a.us/-2.dds
+  method: copy
+  source:
+  - name: T/ifrit-icon-xm.png
+# shopicon
+- name: remastered/menu/shopface/p_ex020.bin/-0.dds
+  multi: 
+  - name: remastered/menu/shopface/p_ex020_10.bin/-0.dds
+  - name: remastered/menu/shopface/p_ex020_20.bin/-0.dds
+  - name: remastered/menu/shopface/p_wi020.bin/-0.dds
+  - name: remastered/menu/shopface/p_xm020.bin/-0.dds
+  method: copy
+  source:
+  - name: T/garuda-shop-icon.dds
+- name: remastered/menu/shopface/p_ex030.bin/-0.dds
+  multi:
+  - name: remastered/menu/shopface/p_ex030_10.bin/-0.dds
+  - name: remastered/menu/shopface/p_ex030_20.bin/-0.dds
+  - name: remastered/menu/shopface/p_wi030.bin/-0.dds
+  - name: remastered/menu/shopface/p_xm030.bin/-0.dds
+  method: copy
+  source:
+  - name: T/ifrit-shop-icon.dds
