@@ -1,6 +1,7 @@
 title: Egi Party
 originalAuthor: wavingfuture
 description: Replaces Donald and Goofy during gameplay with Garuda-Egi and Ifrit-Egi respectively. Weapons are still visible.
+game: kh2
 dependencies: 
 assets:
 # garuda donald
